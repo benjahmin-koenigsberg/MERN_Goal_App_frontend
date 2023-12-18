@@ -1,9 +1,6 @@
 import axios from 'axios'
 
-// const API_URL = '/api/users/'
-// const API_URL = process.env.REACT_APP_URL + '/api/users/'
-//const API_URL = 'http://localhost:5000/api/users/'
-const API_URL = https://mern-goal-app-backend.onrender.com/api/users;
+const API_URL = 'https://mern-goal-app-backend.onrender.com/api/users';
 
 
 //Register user
