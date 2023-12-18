@@ -1,8 +1,4 @@
 import axios from 'axios'
-
-// const API_URL =  '/api/goals/'
-// const API_URL = process.env.REACT_APP_URL + '/api/goals/'
-//const API_URL = 'http://localhost:5000/api/goals/'
 const API_URL = 'https://mern-goal-app-backend.onrender.com/api/goals/';
 
 
