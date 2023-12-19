@@ -80,7 +80,7 @@ export const goalSlice = createSlice({
             .addCase(createGoal.fulfilled, (state, action) => {
                 state.isLoading = false
                 state.isSuccess = true
-                if(state.goals) state.goals.push(action.payload)
+                state.goals.push(action.payload)
             })
             .addCase(createGoal.rejected, (state, action) => {
                 state.isLoading = false
