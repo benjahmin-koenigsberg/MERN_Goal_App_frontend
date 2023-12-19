@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'https://mern-goal-app-backend.onrender.com/api/goals/';
+const API_URL = 'https://mern-goal-app-backend.onrender.com/api/goals';
 
 
 // Create new goal
