@@ -1,46 +1,82 @@
-# Getting Started with Create React App and Redux
+# Goal Setting MERN App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Welcome to the Goal Setting MERN App repository! This is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js) for setting and tracking your personal and professional goals.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication:** Secure user registration and login functionality.
+- **Goal Management:** Create, update, and delete goals with ease.
+- **Progress Tracking:** Log and visualize your progress over time.
+- **Responsive Design:** A user-friendly interface that works seamlessly across devices.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:**
+  - React: A JavaScript library for building user interfaces.
+  - Redux: State management for React applications.
+  - Axios: HTTP client for making API requests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend:**
+  - Node.js: A JavaScript runtime for server-side development.
+  - Express: A web application framework for Node.js.
+  - MongoDB: A NoSQL database for storing data.
 
-### `npm test`
+- **Authentication:**
+  - JSON Web Tokens (JWT): Securely transmit information between parties.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+1. Clone the repository: `git clone https://github.com/benjahmin-koenigsberg/goal_setting_MERN_app.git`
+2. Navigate to the project directory: `cd goal_setting_MERN_app`
+3. Install dependencies:
+   - For the backend, run `cd server && npm install`
+   - For the frontend, run `cd client && npm install`
+4. Start the backend server: `cd server && npm start`
+5. Start the frontend development server: `cd client && npm start`
+6. Open your browser and visit `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+|-- client
+|   |-- public
+|   |-- src
+|       |-- components
+|       |-- pages
+|       |-- App.js
+|   |-- package.json
+|-- server
+|   |-- config
+|   |-- controllers
+|   |-- middleware
+|   |-- models
+|   |-- routes
+|   |-- index.js
+|   |-- package.json
+|-- .gitignore
+|-- README.md
+|-- etc.
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **`client`:** Frontend application built with React.
+- **`server`:** Backend server built with Node.js and Express.
+- **`client/public`:** Static assets and HTML template for the React app.
+- **`client/src`:** React components and application logic.
+- **`server/config`:** Configuration files, such as database connection settings.
+- **`server/controllers`:** Controller functions for handling HTTP requests.
+- **`server/middleware`:** Custom middleware functions.
+- **`server/models`:** MongoDB schema models.
+- **`server/routes`:** Express routes for different API endpoints.
+- **`.gitignore`:** Specifies files/folders to be ignored by Git.
 
-### `npm run eject`
+## Shout out
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Brad Traversy!!
+I built this project coding along to this tutorial
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+####Learn The MERN Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://youtube.com/playlist?list=PLillGF-RfqbbQeVSccR9PGKHzPJSWqcsm&si=w-x1erIFgkfN7ls1
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore, modify, and use this project for your goal-setting journey! 🚀
